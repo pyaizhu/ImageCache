@@ -12,7 +12,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        for (int i = 0; i <10 ; i++) {
 
+        }
         //你好
         setContentView(R.layout.activity_main);
         ListView lv = (ListView) findViewById(R.id.lv);
