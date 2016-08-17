@@ -12,10 +12,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        String abc ="http://192.168.0.99:8080/androidoo/q3.jpg";
-//        String a = "abc811";
-//        String b ="abc812";
-//        Log.e("print", StringUtils.getMD5Str32byte(abc));
 
         //你好
         setContentView(R.layout.activity_main);
