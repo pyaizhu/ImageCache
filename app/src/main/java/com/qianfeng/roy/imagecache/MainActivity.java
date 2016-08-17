@@ -1,8 +1,7 @@
 package com.qianfeng.roy.imagecache;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -17,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 //        String a = "abc811";
 //        String b ="abc812";
 //        Log.e("print", StringUtils.getMD5Str32byte(abc));
+
+        //你好
         setContentView(R.layout.activity_main);
         ListView lv = (ListView) findViewById(R.id.lv);
         List<String> data = new ArrayList<>();
