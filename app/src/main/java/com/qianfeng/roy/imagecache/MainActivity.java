@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i <40 ; i++) {
             data.add(i+">>>");
         }
+        //
         MyAdapter adapter = new MyAdapter(this,data);
         lv.setAdapter(adapter);
     }
