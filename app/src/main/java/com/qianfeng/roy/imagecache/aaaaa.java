@@ -1,6 +1,9 @@
 package com.qianfeng.roy.imagecache;
 
+import android.app.Application;
+
 /**
  */
-public class aaaaa {
+public class aaaaa extends Application{
+
 }
